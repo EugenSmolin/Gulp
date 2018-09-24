@@ -1,0 +1,50 @@
+.header {
+  margin: 20px 0;
+  border: 1px solid #d7d7d7;
+  padding: 20px; }
+
+.sidebar {
+  color: green; }
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+body {
+  padding: 20px; }
+
+h1 {
+  margin: 20px 0;
+  padding: 10px;
+  color: red;
+  font-style: italic;
+  -webkit-box-shadow: 0 0 5px #999;
+  box-shadow: 0 0 5px #999; }
+
+.input, .btn {
+  width: 200px;
+  height: 30px;
+  border: 1px solid #d7d7d7;
+  padding: 5px;
+  margin-top: 20px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px; }
+  .input:focus, .btn:focus {
+    outline: none;
+    border: 1px solid green; }
+
+.btn {
+  margin-left: -5px;
+  background-color: #fff;
+  width: 50px;
+  text-align: center;
+  -webkit-transition: .3s linear;
+  -o-transition: .3s linear;
+  transition: .3s linear;
+  cursor: pointer; }
+  .btn:hover {
+    background-color: #d7d7d7; }
+
+/*# sourceMappingURL=main.css.map */

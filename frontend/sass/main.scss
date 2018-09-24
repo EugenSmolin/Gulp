@@ -1,0 +1,49 @@
+@import "_reset.scss";
+@import "_header.scss";
+@import "_sidebar.scss";
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	padding: 20px;
+}
+
+h1 {
+	margin: 20px 0;
+	padding: 10px;
+	color: red;
+	font-style: italic;
+	box-shadow: 0 0 5px #999;
+}
+
+.input {
+	width: 200px;
+	height: 30px;
+	border: 1px solid #d7d7d7;
+	padding: 5px;
+	margin-top: 20px;
+	border-radius: 5px;
+
+	&:focus {
+		outline: none;
+		border: 1px solid green;
+	}
+}
+
+.btn {
+	@extend .input;
+	margin-left: -5px;
+	background-color: #fff;
+	width: 50px;
+	text-align: center;
+	transition: .3s linear;
+	cursor: pointer;
+
+	&:hover {
+		background-color: #d7d7d7;
+	}
+}
