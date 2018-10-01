@@ -2,6 +2,8 @@
 @import "_header.scss";
 @import "_sidebar.scss";
 
+$lightRed: #FFA9A9;
+
 * {
 	margin: 0;
 	padding: 0;
@@ -37,13 +39,14 @@ h1 {
 .btn {
 	@extend .input;
 	margin-left: -5px;
-	background-color: #fff;
+	background-color: #d7d7d7;
 	width: 50px;
 	text-align: center;
-	transition: .3s linear;
+	transition: .1s linear;
 	cursor: pointer;
 
 	&:hover {
-		background-color: #d7d7d7;
+		background-color: $lightRed;
+		border-color: $lightRed;
 	}
 }

@@ -27,6 +27,9 @@
     "gulp-remember": "^1.0.1",
     "gulp-sass": "^4.0.1",
     "gulp-sourcemaps": "^2.6.4",
-    "path": "^0.12.7"
+    "multipipe": "^2.0.3",
+    "path": "^0.12.7",
+    "through2": "^2.0.3",
+    "vinyl": "^2.2.0"
   }
 }
